@@ -131,6 +131,17 @@ Push to a repo, then add these under **Settings → Secrets and variables → Ac
 | `FRIENDS_JSON` | yes | The whole `friends.json` contents, pasted inline — keeps your group's SteamIDs out of a public repo |
 | `OPENDOTA_API_KEY` | no | Only if you outgrow the free tier |
 
+**The scheduled workflows ship disabled**, so they don't fail every 5 minutes before the secrets
+exist. Once all four secrets are set, turn them on:
+
+```bash
+gh workflow enable "Poll Dota activity"
+gh workflow enable "Weekly recap"
+gh workflow enable "Refresh hero constants"
+```
+
+(Or **Actions → [workflow] → Enable workflow** in the web UI.)
+
 Then trigger **Actions → Poll Dota activity → Run workflow** once to confirm it works before
 relying on the cron.
 
