@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.local
+friends.json
+.DS_Store
+
+# dashboard
+dashboard/.next/
+dashboard/node_modules/
+dashboard/.vercel

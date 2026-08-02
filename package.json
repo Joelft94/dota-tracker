@@ -1,0 +1,22 @@
+{
+  "name": "dota-tracker",
+  "version": "1.0.0",
+  "description": "Polls Dota 2 activity for a friend group and posts match updates to a Discord webhook",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node scripts/selftest.js",
+    "migrate": "node scripts/migrate.js",
+    "poll": "node poller/index.js",
+    "poll:dry": "node poller/index.js --dry-run",
+    "backfill": "node scripts/backfill.js",
+    "recap": "node scripts/weekly-recap.js",
+    "recap:dry": "node scripts/weekly-recap.js --dry-run",
+    "heroes": "node scripts/update-heroes.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

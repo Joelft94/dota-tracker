@@ -1,0 +1,35 @@
+name: Refresh hero constants
+
+on:
+  schedule:
+    # Mondays 06:00 UTC — new heroes and renames land with patches, not daily.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  heroes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - run: node scripts/update-heroes.js
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain poller/heroes.json)" ]]; then
+            git config user.name  'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add poller/heroes.json
+            git commit -m 'chore: refresh hero constants'
+            git push
+          else
+            echo 'No hero changes.'
+          fi

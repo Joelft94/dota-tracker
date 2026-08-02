@@ -1,0 +1,1509 @@
+{
+ "1": {
+  "id": 1,
+  "name": "Anti-Mage",
+  "img": "/apps/dota2/images/dota_react/heroes/antimage.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "2": {
+  "id": 2,
+  "name": "Axe",
+  "img": "/apps/dota2/images/dota_react/heroes/axe.png?",
+  "attr": "str",
+  "roles": [
+   "Initiator",
+   "Durable",
+   "Disabler",
+   "Carry"
+  ]
+ },
+ "3": {
+  "id": 3,
+  "name": "Bane",
+  "img": "/apps/dota2/images/dota_react/heroes/bane.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Nuker",
+   "Durable"
+  ]
+ },
+ "4": {
+  "id": 4,
+  "name": "Bloodseeker",
+  "img": "/apps/dota2/images/dota_react/heroes/bloodseeker.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Disabler",
+   "Nuker",
+   "Initiator"
+  ]
+ },
+ "5": {
+  "id": 5,
+  "name": "Crystal Maiden",
+  "img": "/apps/dota2/images/dota_react/heroes/crystal_maiden.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "6": {
+  "id": 6,
+  "name": "Drow Ranger",
+  "img": "/apps/dota2/images/dota_react/heroes/drow_ranger.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Disabler",
+   "Pusher"
+  ]
+ },
+ "7": {
+  "id": 7,
+  "name": "Earthshaker",
+  "img": "/apps/dota2/images/dota_react/heroes/earthshaker.png?",
+  "attr": "str",
+  "roles": [
+   "Support",
+   "Initiator",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "8": {
+  "id": 8,
+  "name": "Juggernaut",
+  "img": "/apps/dota2/images/dota_react/heroes/juggernaut.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Escape"
+  ]
+ },
+ "9": {
+  "id": 9,
+  "name": "Mirana",
+  "img": "/apps/dota2/images/dota_react/heroes/mirana.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Support",
+   "Escape",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "10": {
+  "id": 10,
+  "name": "Morphling",
+  "img": "/apps/dota2/images/dota_react/heroes/morphling.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Durable",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "11": {
+  "id": 11,
+  "name": "Shadow Fiend",
+  "img": "/apps/dota2/images/dota_react/heroes/nevermore.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Nuker"
+  ]
+ },
+ "12": {
+  "id": 12,
+  "name": "Phantom Lancer",
+  "img": "/apps/dota2/images/dota_react/heroes/phantom_lancer.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Pusher",
+   "Nuker"
+  ]
+ },
+ "13": {
+  "id": 13,
+  "name": "Puck",
+  "img": "/apps/dota2/images/dota_react/heroes/puck.png?",
+  "attr": "int",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "14": {
+  "id": 14,
+  "name": "Pudge",
+  "img": "/apps/dota2/images/dota_react/heroes/pudge.png?",
+  "attr": "str",
+  "roles": [
+   "Disabler",
+   "Initiator",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "15": {
+  "id": 15,
+  "name": "Razor",
+  "img": "/apps/dota2/images/dota_react/heroes/razor.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Nuker",
+   "Pusher"
+  ]
+ },
+ "16": {
+  "id": 16,
+  "name": "Sand King",
+  "img": "/apps/dota2/images/dota_react/heroes/sand_king.png?",
+  "attr": "all",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Support",
+   "Nuker",
+   "Escape"
+  ]
+ },
+ "17": {
+  "id": 17,
+  "name": "Storm Spirit",
+  "img": "/apps/dota2/images/dota_react/heroes/storm_spirit.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Nuker",
+   "Initiator",
+   "Disabler"
+  ]
+ },
+ "18": {
+  "id": 18,
+  "name": "Sven",
+  "img": "/apps/dota2/images/dota_react/heroes/sven.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Disabler",
+   "Initiator",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "19": {
+  "id": 19,
+  "name": "Tiny",
+  "img": "/apps/dota2/images/dota_react/heroes/tiny.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Pusher",
+   "Initiator",
+   "Durable",
+   "Disabler"
+  ]
+ },
+ "20": {
+  "id": 20,
+  "name": "Vengeful Spirit",
+  "img": "/apps/dota2/images/dota_react/heroes/vengefulspirit.png?",
+  "attr": "agi",
+  "roles": [
+   "Support",
+   "Initiator",
+   "Disabler",
+   "Nuker",
+   "Escape"
+  ]
+ },
+ "21": {
+  "id": 21,
+  "name": "Windranger",
+  "img": "/apps/dota2/images/dota_react/heroes/windrunner.png?",
+  "attr": "all",
+  "roles": [
+   "Carry",
+   "Support",
+   "Disabler",
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "22": {
+  "id": 22,
+  "name": "Zeus",
+  "img": "/apps/dota2/images/dota_react/heroes/zuus.png?",
+  "attr": "int",
+  "roles": [
+   "Nuker",
+   "Carry"
+  ]
+ },
+ "23": {
+  "id": 23,
+  "name": "Kunkka",
+  "img": "/apps/dota2/images/dota_react/heroes/kunkka.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Support",
+   "Disabler",
+   "Initiator",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "25": {
+  "id": 25,
+  "name": "Lina",
+  "img": "/apps/dota2/images/dota_react/heroes/lina.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Carry",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "26": {
+  "id": 26,
+  "name": "Lion",
+  "img": "/apps/dota2/images/dota_react/heroes/lion.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Nuker",
+   "Initiator"
+  ]
+ },
+ "27": {
+  "id": 27,
+  "name": "Shadow Shaman",
+  "img": "/apps/dota2/images/dota_react/heroes/shadow_shaman.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Pusher",
+   "Disabler",
+   "Nuker",
+   "Initiator"
+  ]
+ },
+ "28": {
+  "id": 28,
+  "name": "Slardar",
+  "img": "/apps/dota2/images/dota_react/heroes/slardar.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Initiator",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "29": {
+  "id": 29,
+  "name": "Tidehunter",
+  "img": "/apps/dota2/images/dota_react/heroes/tidehunter.png?",
+  "attr": "str",
+  "roles": [
+   "Initiator",
+   "Durable",
+   "Disabler",
+   "Nuker",
+   "Carry"
+  ]
+ },
+ "30": {
+  "id": 30,
+  "name": "Witch Doctor",
+  "img": "/apps/dota2/images/dota_react/heroes/witch_doctor.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "31": {
+  "id": 31,
+  "name": "Lich",
+  "img": "/apps/dota2/images/dota_react/heroes/lich.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker"
+  ]
+ },
+ "32": {
+  "id": 32,
+  "name": "Riki",
+  "img": "/apps/dota2/images/dota_react/heroes/riki.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Disabler"
+  ]
+ },
+ "33": {
+  "id": 33,
+  "name": "Enigma",
+  "img": "/apps/dota2/images/dota_react/heroes/enigma.png?",
+  "attr": "all",
+  "roles": [
+   "Disabler",
+   "Initiator",
+   "Pusher"
+  ]
+ },
+ "34": {
+  "id": 34,
+  "name": "Tinker",
+  "img": "/apps/dota2/images/dota_react/heroes/tinker.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Pusher"
+  ]
+ },
+ "35": {
+  "id": 35,
+  "name": "Sniper",
+  "img": "/apps/dota2/images/dota_react/heroes/sniper.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Nuker"
+  ]
+ },
+ "36": {
+  "id": 36,
+  "name": "Necrophos",
+  "img": "/apps/dota2/images/dota_react/heroes/necrolyte.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Durable",
+   "Disabler"
+  ]
+ },
+ "37": {
+  "id": 37,
+  "name": "Warlock",
+  "img": "/apps/dota2/images/dota_react/heroes/warlock.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Initiator",
+   "Disabler"
+  ]
+ },
+ "38": {
+  "id": 38,
+  "name": "Beastmaster",
+  "img": "/apps/dota2/images/dota_react/heroes/beastmaster.png?",
+  "attr": "all",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "39": {
+  "id": 39,
+  "name": "Queen of Pain",
+  "img": "/apps/dota2/images/dota_react/heroes/queenofpain.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Escape"
+  ]
+ },
+ "40": {
+  "id": 40,
+  "name": "Venomancer",
+  "img": "/apps/dota2/images/dota_react/heroes/venomancer.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Initiator",
+   "Pusher",
+   "Disabler"
+  ]
+ },
+ "41": {
+  "id": 41,
+  "name": "Faceless Void",
+  "img": "/apps/dota2/images/dota_react/heroes/faceless_void.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Initiator",
+   "Disabler",
+   "Escape",
+   "Durable"
+  ]
+ },
+ "42": {
+  "id": 42,
+  "name": "Wraith King",
+  "img": "/apps/dota2/images/dota_react/heroes/skeleton_king.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Support",
+   "Durable",
+   "Disabler",
+   "Initiator"
+  ]
+ },
+ "43": {
+  "id": 43,
+  "name": "Death Prophet",
+  "img": "/apps/dota2/images/dota_react/heroes/death_prophet.png?",
+  "attr": "all",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "44": {
+  "id": 44,
+  "name": "Phantom Assassin",
+  "img": "/apps/dota2/images/dota_react/heroes/phantom_assassin.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape"
+  ]
+ },
+ "45": {
+  "id": 45,
+  "name": "Pugna",
+  "img": "/apps/dota2/images/dota_react/heroes/pugna.png?",
+  "attr": "int",
+  "roles": [
+   "Nuker",
+   "Pusher"
+  ]
+ },
+ "46": {
+  "id": 46,
+  "name": "Templar Assassin",
+  "img": "/apps/dota2/images/dota_react/heroes/templar_assassin.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape"
+  ]
+ },
+ "47": {
+  "id": 47,
+  "name": "Viper",
+  "img": "/apps/dota2/images/dota_react/heroes/viper.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Initiator",
+   "Disabler"
+  ]
+ },
+ "48": {
+  "id": 48,
+  "name": "Luna",
+  "img": "/apps/dota2/images/dota_react/heroes/luna.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Pusher"
+  ]
+ },
+ "49": {
+  "id": 49,
+  "name": "Dragon Knight",
+  "img": "/apps/dota2/images/dota_react/heroes/dragon_knight.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Durable",
+   "Disabler",
+   "Initiator",
+   "Nuker"
+  ]
+ },
+ "50": {
+  "id": 50,
+  "name": "Dazzle",
+  "img": "/apps/dota2/images/dota_react/heroes/dazzle.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "51": {
+  "id": 51,
+  "name": "Clockwerk",
+  "img": "/apps/dota2/images/dota_react/heroes/rattletrap.png?",
+  "attr": "str",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "52": {
+  "id": 52,
+  "name": "Leshrac",
+  "img": "/apps/dota2/images/dota_react/heroes/leshrac.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Support",
+   "Nuker",
+   "Pusher",
+   "Disabler"
+  ]
+ },
+ "53": {
+  "id": 53,
+  "name": "Nature's Prophet",
+  "img": "/apps/dota2/images/dota_react/heroes/furion.png?",
+  "attr": "all",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "54": {
+  "id": 54,
+  "name": "Lifestealer",
+  "img": "/apps/dota2/images/dota_react/heroes/life_stealer.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Escape",
+   "Disabler"
+  ]
+ },
+ "55": {
+  "id": 55,
+  "name": "Dark Seer",
+  "img": "/apps/dota2/images/dota_react/heroes/dark_seer.png?",
+  "attr": "int",
+  "roles": [
+   "Initiator",
+   "Escape",
+   "Disabler"
+  ]
+ },
+ "56": {
+  "id": 56,
+  "name": "Clinkz",
+  "img": "/apps/dota2/images/dota_react/heroes/clinkz.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Pusher"
+  ]
+ },
+ "57": {
+  "id": 57,
+  "name": "Omniknight",
+  "img": "/apps/dota2/images/dota_react/heroes/omniknight.png?",
+  "attr": "str",
+  "roles": [
+   "Support",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "58": {
+  "id": 58,
+  "name": "Enchantress",
+  "img": "/apps/dota2/images/dota_react/heroes/enchantress.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Pusher",
+   "Durable",
+   "Disabler"
+  ]
+ },
+ "59": {
+  "id": 59,
+  "name": "Huskar",
+  "img": "/apps/dota2/images/dota_react/heroes/huskar.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Initiator"
+  ]
+ },
+ "60": {
+  "id": 60,
+  "name": "Night Stalker",
+  "img": "/apps/dota2/images/dota_react/heroes/night_stalker.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Initiator",
+   "Durable",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "61": {
+  "id": 61,
+  "name": "Broodmother",
+  "img": "/apps/dota2/images/dota_react/heroes/broodmother.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "62": {
+  "id": 62,
+  "name": "Bounty Hunter",
+  "img": "/apps/dota2/images/dota_react/heroes/bounty_hunter.png?",
+  "attr": "agi",
+  "roles": [
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "63": {
+  "id": 63,
+  "name": "Weaver",
+  "img": "/apps/dota2/images/dota_react/heroes/weaver.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape"
+  ]
+ },
+ "64": {
+  "id": 64,
+  "name": "Jakiro",
+  "img": "/apps/dota2/images/dota_react/heroes/jakiro.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Pusher",
+   "Disabler"
+  ]
+ },
+ "65": {
+  "id": 65,
+  "name": "Batrider",
+  "img": "/apps/dota2/images/dota_react/heroes/batrider.png?",
+  "attr": "all",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "66": {
+  "id": 66,
+  "name": "Chen",
+  "img": "/apps/dota2/images/dota_react/heroes/chen.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Pusher"
+  ]
+ },
+ "67": {
+  "id": 67,
+  "name": "Spectre",
+  "img": "/apps/dota2/images/dota_react/heroes/spectre.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Escape"
+  ]
+ },
+ "68": {
+  "id": 68,
+  "name": "Ancient Apparition",
+  "img": "/apps/dota2/images/dota_react/heroes/ancient_apparition.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "69": {
+  "id": 69,
+  "name": "Doom",
+  "img": "/apps/dota2/images/dota_react/heroes/doom_bringer.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Disabler",
+   "Initiator",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "70": {
+  "id": 70,
+  "name": "Ursa",
+  "img": "/apps/dota2/images/dota_react/heroes/ursa.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Disabler"
+  ]
+ },
+ "71": {
+  "id": 71,
+  "name": "Spirit Breaker",
+  "img": "/apps/dota2/images/dota_react/heroes/spirit_breaker.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Initiator",
+   "Disabler",
+   "Durable",
+   "Escape"
+  ]
+ },
+ "72": {
+  "id": 72,
+  "name": "Gyrocopter",
+  "img": "/apps/dota2/images/dota_react/heroes/gyrocopter.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "73": {
+  "id": 73,
+  "name": "Alchemist",
+  "img": "/apps/dota2/images/dota_react/heroes/alchemist.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Support",
+   "Durable",
+   "Disabler",
+   "Initiator",
+   "Nuker"
+  ]
+ },
+ "74": {
+  "id": 74,
+  "name": "Invoker",
+  "img": "/apps/dota2/images/dota_react/heroes/invoker.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Disabler",
+   "Escape",
+   "Pusher"
+  ]
+ },
+ "75": {
+  "id": 75,
+  "name": "Silencer",
+  "img": "/apps/dota2/images/dota_react/heroes/silencer.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Support",
+   "Disabler",
+   "Initiator",
+   "Nuker"
+  ]
+ },
+ "76": {
+  "id": 76,
+  "name": "Outworld Devourer",
+  "img": "/apps/dota2/images/dota_react/heroes/obsidian_destroyer.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "77": {
+  "id": 77,
+  "name": "Lycan",
+  "img": "/apps/dota2/images/dota_react/heroes/lycan.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Durable",
+   "Escape"
+  ]
+ },
+ "78": {
+  "id": 78,
+  "name": "Brewmaster",
+  "img": "/apps/dota2/images/dota_react/heroes/brewmaster.png?",
+  "attr": "all",
+  "roles": [
+   "Carry",
+   "Initiator",
+   "Durable",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "79": {
+  "id": 79,
+  "name": "Shadow Demon",
+  "img": "/apps/dota2/images/dota_react/heroes/shadow_demon.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Initiator",
+   "Nuker"
+  ]
+ },
+ "80": {
+  "id": 80,
+  "name": "Lone Druid",
+  "img": "/apps/dota2/images/dota_react/heroes/lone_druid.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Durable"
+  ]
+ },
+ "81": {
+  "id": 81,
+  "name": "Chaos Knight",
+  "img": "/apps/dota2/images/dota_react/heroes/chaos_knight.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Disabler",
+   "Durable",
+   "Pusher",
+   "Initiator"
+  ]
+ },
+ "82": {
+  "id": 82,
+  "name": "Meepo",
+  "img": "/apps/dota2/images/dota_react/heroes/meepo.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Nuker",
+   "Disabler",
+   "Initiator",
+   "Pusher"
+  ]
+ },
+ "83": {
+  "id": 83,
+  "name": "Treant Protector",
+  "img": "/apps/dota2/images/dota_react/heroes/treant.png?",
+  "attr": "str",
+  "roles": [
+   "Support",
+   "Initiator",
+   "Durable",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "84": {
+  "id": 84,
+  "name": "Ogre Magi",
+  "img": "/apps/dota2/images/dota_react/heroes/ogre_magi.png?",
+  "attr": "str",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler",
+   "Durable",
+   "Initiator"
+  ]
+ },
+ "85": {
+  "id": 85,
+  "name": "Undying",
+  "img": "/apps/dota2/images/dota_react/heroes/undying.png?",
+  "attr": "str",
+  "roles": [
+   "Support",
+   "Durable",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "86": {
+  "id": 86,
+  "name": "Rubick",
+  "img": "/apps/dota2/images/dota_react/heroes/rubick.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "87": {
+  "id": 87,
+  "name": "Disruptor",
+  "img": "/apps/dota2/images/dota_react/heroes/disruptor.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Nuker",
+   "Initiator"
+  ]
+ },
+ "88": {
+  "id": 88,
+  "name": "Nyx Assassin",
+  "img": "/apps/dota2/images/dota_react/heroes/nyx_assassin.png?",
+  "attr": "all",
+  "roles": [
+   "Disabler",
+   "Nuker",
+   "Initiator",
+   "Escape"
+  ]
+ },
+ "89": {
+  "id": 89,
+  "name": "Naga Siren",
+  "img": "/apps/dota2/images/dota_react/heroes/naga_siren.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Support",
+   "Pusher",
+   "Disabler",
+   "Initiator",
+   "Escape"
+  ]
+ },
+ "90": {
+  "id": 90,
+  "name": "Keeper of the Light",
+  "img": "/apps/dota2/images/dota_react/heroes/keeper_of_the_light.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "91": {
+  "id": 91,
+  "name": "Io",
+  "img": "/apps/dota2/images/dota_react/heroes/wisp.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "92": {
+  "id": 92,
+  "name": "Visage",
+  "img": "/apps/dota2/images/dota_react/heroes/visage.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Durable",
+   "Disabler",
+   "Pusher"
+  ]
+ },
+ "93": {
+  "id": 93,
+  "name": "Slark",
+  "img": "/apps/dota2/images/dota_react/heroes/slark.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "94": {
+  "id": 94,
+  "name": "Medusa",
+  "img": "/apps/dota2/images/dota_react/heroes/medusa.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Disabler",
+   "Durable"
+  ]
+ },
+ "95": {
+  "id": 95,
+  "name": "Troll Warlord",
+  "img": "/apps/dota2/images/dota_react/heroes/troll_warlord.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Disabler",
+   "Durable"
+  ]
+ },
+ "96": {
+  "id": 96,
+  "name": "Centaur Warrunner",
+  "img": "/apps/dota2/images/dota_react/heroes/centaur.png?",
+  "attr": "str",
+  "roles": [
+   "Durable",
+   "Initiator",
+   "Disabler",
+   "Nuker",
+   "Escape"
+  ]
+ },
+ "97": {
+  "id": 97,
+  "name": "Magnus",
+  "img": "/apps/dota2/images/dota_react/heroes/magnataur.png?",
+  "attr": "all",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Nuker",
+   "Escape"
+  ]
+ },
+ "98": {
+  "id": 98,
+  "name": "Timbersaw",
+  "img": "/apps/dota2/images/dota_react/heroes/shredder.png?",
+  "attr": "str",
+  "roles": [
+   "Nuker",
+   "Durable",
+   "Escape"
+  ]
+ },
+ "99": {
+  "id": 99,
+  "name": "Bristleback",
+  "img": "/apps/dota2/images/dota_react/heroes/bristleback.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Durable",
+   "Initiator",
+   "Nuker"
+  ]
+ },
+ "100": {
+  "id": 100,
+  "name": "Tusk",
+  "img": "/apps/dota2/images/dota_react/heroes/tusk.png?",
+  "attr": "str",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "101": {
+  "id": 101,
+  "name": "Skywrath Mage",
+  "img": "/apps/dota2/images/dota_react/heroes/skywrath_mage.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "102": {
+  "id": 102,
+  "name": "Abaddon",
+  "img": "/apps/dota2/images/dota_react/heroes/abaddon.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Carry",
+   "Durable"
+  ]
+ },
+ "103": {
+  "id": 103,
+  "name": "Elder Titan",
+  "img": "/apps/dota2/images/dota_react/heroes/elder_titan.png?",
+  "attr": "str",
+  "roles": [
+   "Initiator",
+   "Disabler",
+   "Nuker",
+   "Durable"
+  ]
+ },
+ "104": {
+  "id": 104,
+  "name": "Legion Commander",
+  "img": "/apps/dota2/images/dota_react/heroes/legion_commander.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Disabler",
+   "Initiator",
+   "Durable",
+   "Nuker"
+  ]
+ },
+ "105": {
+  "id": 105,
+  "name": "Techies",
+  "img": "/apps/dota2/images/dota_react/heroes/techies.png?",
+  "attr": "all",
+  "roles": [
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "106": {
+  "id": 106,
+  "name": "Ember Spirit",
+  "img": "/apps/dota2/images/dota_react/heroes/ember_spirit.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Nuker",
+   "Disabler",
+   "Initiator"
+  ]
+ },
+ "107": {
+  "id": 107,
+  "name": "Earth Spirit",
+  "img": "/apps/dota2/images/dota_react/heroes/earth_spirit.png?",
+  "attr": "str",
+  "roles": [
+   "Nuker",
+   "Escape",
+   "Disabler",
+   "Initiator",
+   "Durable"
+  ]
+ },
+ "108": {
+  "id": 108,
+  "name": "Underlord",
+  "img": "/apps/dota2/images/dota_react/heroes/abyssal_underlord.png?",
+  "attr": "str",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler",
+   "Durable",
+   "Escape"
+  ]
+ },
+ "109": {
+  "id": 109,
+  "name": "Terrorblade",
+  "img": "/apps/dota2/images/dota_react/heroes/terrorblade.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Pusher",
+   "Nuker"
+  ]
+ },
+ "110": {
+  "id": 110,
+  "name": "Phoenix",
+  "img": "/apps/dota2/images/dota_react/heroes/phoenix.png?",
+  "attr": "str",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Initiator",
+   "Escape",
+   "Disabler"
+  ]
+ },
+ "111": {
+  "id": 111,
+  "name": "Oracle",
+  "img": "/apps/dota2/images/dota_react/heroes/oracle.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "112": {
+  "id": 112,
+  "name": "Winter Wyvern",
+  "img": "/apps/dota2/images/dota_react/heroes/winter_wyvern.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Disabler",
+   "Nuker"
+  ]
+ },
+ "113": {
+  "id": 113,
+  "name": "Arc Warden",
+  "img": "/apps/dota2/images/dota_react/heroes/arc_warden.png?",
+  "attr": "all",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Nuker"
+  ]
+ },
+ "114": {
+  "id": 114,
+  "name": "Monkey King",
+  "img": "/apps/dota2/images/dota_react/heroes/monkey_king.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Disabler",
+   "Initiator"
+  ]
+ },
+ "119": {
+  "id": 119,
+  "name": "Dark Willow",
+  "img": "/apps/dota2/images/dota_react/heroes/dark_willow.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "120": {
+  "id": 120,
+  "name": "Pangolier",
+  "img": "/apps/dota2/images/dota_react/heroes/pangolier.png?",
+  "attr": "all",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Disabler",
+   "Durable",
+   "Escape",
+   "Initiator"
+  ]
+ },
+ "121": {
+  "id": 121,
+  "name": "Grimstroke",
+  "img": "/apps/dota2/images/dota_react/heroes/grimstroke.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "123": {
+  "id": 123,
+  "name": "Hoodwink",
+  "img": "/apps/dota2/images/dota_react/heroes/hoodwink.png?",
+  "attr": "agi",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Escape",
+   "Disabler"
+  ]
+ },
+ "126": {
+  "id": 126,
+  "name": "Void Spirit",
+  "img": "/apps/dota2/images/dota_react/heroes/void_spirit.png?",
+  "attr": "all",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "128": {
+  "id": 128,
+  "name": "Snapfire",
+  "img": "/apps/dota2/images/dota_react/heroes/snapfire.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "129": {
+  "id": 129,
+  "name": "Mars",
+  "img": "/apps/dota2/images/dota_react/heroes/mars.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Initiator",
+   "Disabler",
+   "Durable"
+  ]
+ },
+ "131": {
+  "id": 131,
+  "name": "Ring Master",
+  "img": "/apps/dota2/images/dota_react/heroes/ringmaster.png?",
+  "attr": "int",
+  "roles": [
+   "Support",
+   "Nuker",
+   "Escape",
+   "Disabler"
+  ]
+ },
+ "135": {
+  "id": 135,
+  "name": "Dawnbreaker",
+  "img": "/apps/dota2/images/dota_react/heroes/dawnbreaker.png?",
+  "attr": "str",
+  "roles": [
+   "Carry",
+   "Durable"
+  ]
+ },
+ "136": {
+  "id": 136,
+  "name": "Marci",
+  "img": "/apps/dota2/images/dota_react/heroes/marci.png?",
+  "attr": "all",
+  "roles": [
+   "Support",
+   "Carry",
+   "Initiator",
+   "Disabler",
+   "Escape"
+  ]
+ },
+ "137": {
+  "id": 137,
+  "name": "Primal Beast",
+  "img": "/apps/dota2/images/dota_react/heroes/primal_beast.png?",
+  "attr": "str",
+  "roles": [
+   "Initiator",
+   "Durable",
+   "Disabler"
+  ]
+ },
+ "138": {
+  "id": 138,
+  "name": "Muerta",
+  "img": "/apps/dota2/images/dota_react/heroes/muerta.png?",
+  "attr": "int",
+  "roles": [
+   "Carry",
+   "Nuker",
+   "Disabler"
+  ]
+ },
+ "145": {
+  "id": 145,
+  "name": "Kez",
+  "img": "/apps/dota2/images/dota_react/heroes/kez.png?",
+  "attr": "agi",
+  "roles": [
+   "Carry",
+   "Escape",
+   "Disabler"
+  ]
+ },
+ "155": {
+  "id": 155,
+  "name": "Largo",
+  "img": "/apps/dota2/images/dota_react/heroes/largo.png?",
+  "attr": "str",
+  "roles": [
+   "Durable",
+   "Disabler",
+   "Support"
+  ]
+ }
+}

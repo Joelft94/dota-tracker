@@ -1,0 +1,37 @@
+name: Poll Dota activity
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub queues cron jobs on a best-effort basis, so real spacing
+    # is often 5-15 min under load — the poller is written to tolerate that.
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+# Never let two runs overlap. The poller also takes a Postgres advisory lock, and the
+# posts.dedupe_key unique index is the final backstop.
+concurrency:
+  group: dota-poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci --omit=dev
+
+      - name: Poll
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          FRIENDS_JSON: ${{ secrets.FRIENDS_JSON }}
+          OPENDOTA_API_KEY: ${{ secrets.OPENDOTA_API_KEY }}
+        run: node poller/index.js

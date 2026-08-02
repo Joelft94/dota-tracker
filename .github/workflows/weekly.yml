@@ -1,0 +1,37 @@
+name: Weekly recap
+
+on:
+  schedule:
+    # Sundays at 20:00 UTC. Change this to suit your group's timezone — cron here is
+    # always UTC, so e.g. 20:00 in UTC-3 (Argentina/Brazil) is '0 23 * * 0'.
+    - cron: '0 20 * * 0'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Days to summarise'
+        required: false
+        default: '7'
+
+concurrency:
+  group: dota-recap
+  cancel-in-progress: false
+
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci --omit=dev
+
+      - name: Post recap
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: node scripts/weekly-recap.js --days ${{ github.event.inputs.days || '7' }}
